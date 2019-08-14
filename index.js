@@ -40,6 +40,7 @@ var neliel = {
    *
    * neliel.sub(0.8 - 0.1);
    * // => 0.7
+   * 
    */
   sub: function(minuend, subtrahend) {
     return neliel.add(minuend, -Number(subtrahend), arguments[2])
